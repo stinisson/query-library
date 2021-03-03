@@ -1,0 +1,1 @@
+SELECT dogs.name, owners.name as "Owner" FROM dogs, owners where dogs.owner_id = owners.id and owners.name = 'Elon Musk';
