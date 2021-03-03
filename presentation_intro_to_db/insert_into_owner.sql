@@ -1,4 +1,4 @@
-INSERT INTO owners (name) VALUES 
+INSERT INTO owner (name) VALUES 
 ('Grace Hopper'),
 ('Jack London'),
 ('Elon Musk');

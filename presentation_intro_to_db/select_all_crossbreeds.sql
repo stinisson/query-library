@@ -1,1 +1,1 @@
-SELECT name FROM dogs WHERE breed='Crossbreed';
+SELECT name FROM dog WHERE breed='Crossbreed';

@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS dogs 
+CREATE TABLE IF NOT EXISTS dog 
 (id INTEGER PRIMARY KEY, name TEXT NOT NULL, breed TEXT, age INTEGER, owner_id INTEGER NOT NULL, prone_to_escape BOOLEAN,
 FOREIGN KEY (owner_id) REFERENCES owners (id)
 );
