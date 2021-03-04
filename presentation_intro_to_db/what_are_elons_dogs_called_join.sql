@@ -1,4 +1,4 @@
-SELECT owner.name as 'Owner', dog.name
+SELECT dog.name, owner.name as 'Owner'
 FROM owner INNER JOIN dog
 ON owner.id = dog.owner_id
-ORDER BY owner.name;
+WHERE owner.name = 'Elon Musk';
